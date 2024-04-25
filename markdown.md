@@ -41,3 +41,19 @@ Codes related to “GET” request:
 > `502 Bad Gateway` : Acting as a gateway or proxy, the server received an invalid response from an upstream server.
 
 These status codes help communicate the outcome of API requests and guide developers and clients in understanding the results, errors, or necessary actions.
+
+```
+raise Exception("Failed to fetch API data")
+```
+
+#### to raise excepation to show error or exception during api handeling 
+
+```
+if __name__ == "__main__" :
+    main()
+```
+#### The line if __name__ == "__main__": is a special built-in variable in Python. When a Python file is run directly, __name__ is set to "__main__". So, if __name__ == "__main__": is used to check whether the file is being run directly or it’s being imported as a module.
+
+If the file is being run directly, the code within this if block will be executed. In your case, the main() function will be called. This is commonly used to either provide a command line interface for a module, or for testing purposes (running unit tests when the module is run directly).
+
+On the other hand, if the file is being imported from another module, the code within the if __name__ == "__main__": block won’t be executed. This allows the functions and classes defined in the module to be used elsewhere without running the main functionality of the script.
